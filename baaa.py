@@ -1,0 +1,11 @@
+balaji=int(input())
+temp=balaji
+rev=0
+while(balaji>0):
+    dig=balaji%10
+    rev=rev*10+dig
+    balaji=balaji//10
+if(temp==rev):
+    print("yes")
+else:
+    print("no")
